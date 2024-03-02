@@ -1,4 +1,4 @@
-Most Popular Github Repository Project
+Most Popular Github Repository Reader Project
 
 This full-stack project is composed of a frontend written with React + Typescript (./frontend),
 a backend REST API written in Java Spring Boot (./springbootreader), backend NodeJS web worker (./nodejsworker),
