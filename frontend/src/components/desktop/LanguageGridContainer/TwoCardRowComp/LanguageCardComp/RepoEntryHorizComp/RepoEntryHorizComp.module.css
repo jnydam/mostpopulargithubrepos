@@ -1,0 +1,46 @@
+.repoEntryHorizCompContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* background-color: blue; */
+  min-height: 2rem;
+}
+
+.leftSideContent {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 17rem;
+  /* background-color: beige; */
+}
+
+.rightSideContent {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  /* background-color: green; */
+}
+
+.infoIconEntryStyle {
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-width: 4rem;
+  /* background-color: orange; */
+}
+
+.largeInfoIconEntryStyle {
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-width: 7rem;
+  /* background-color: pink; */
+}
+
+.entryTextStyle {
+  font-size: 0.8rem;
+}

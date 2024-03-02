@@ -1,0 +1,16 @@
+.mobileStatisticsSectionCompContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 10rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  /* background-color: pink; */
+}
+
+.statisticsTextStyle {
+  font-size: 0.8rem;
+  color: #0400da;
+}

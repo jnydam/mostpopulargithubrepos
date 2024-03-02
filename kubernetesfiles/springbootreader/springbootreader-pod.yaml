@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: githubview-springbootreader-pod
+  labels:
+    app: githubview-springbootreaderapp
+spec:
+  containers:
+    - name: githubview-springbootreaderappcontainer
+      #image: {{image}}
+      ports:
+        - containerPort: 8080

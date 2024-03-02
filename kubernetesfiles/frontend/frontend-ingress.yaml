@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: githubview-frontend-ingress
+  annotations:
+    # ingress.kubernetes.io/rewrite-target: /
+    kubernetes.io/ingress.class: nginx
+spec:
+  tls:
+    - hosts:
+        - githubviewer.jnydam.com
+      secretName: githubviewerjnydamdotcomsecret
+  rules:
+    - host: githubviewer.jnydam.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: githubview-frontend-service
+                port:
+                  number: 80

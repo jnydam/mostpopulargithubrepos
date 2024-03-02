@@ -1,0 +1,14 @@
+.mobileWhiteBodySectionCompContainer {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 15rem);
+  overflow-y: auto;
+  background-color: white;
+  box-shadow: 0px -1px 2px grey;
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+}
+
+.mobileWhiteBodySectionCompContainer::-webkit-scrollbar {
+  display: none;
+}

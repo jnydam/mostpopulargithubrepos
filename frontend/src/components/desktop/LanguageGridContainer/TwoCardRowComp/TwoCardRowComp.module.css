@@ -1,0 +1,7 @@
+.twoCardRowCompContainer {
+  display: flex;
+  width: 100%;
+  min-height: 17rem;
+  height: 50%;
+  /* background-color: brown; */
+}

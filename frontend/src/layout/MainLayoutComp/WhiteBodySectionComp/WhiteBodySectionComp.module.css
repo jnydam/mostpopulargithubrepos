@@ -1,0 +1,12 @@
+.whiteBodySectionCompContainer {
+  display: flex;
+  height: calc(100% - 14rem);
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  width: 70rem;
+  background-color: white;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  /* box-shadow: 0px 1px 2px grey; */
+}

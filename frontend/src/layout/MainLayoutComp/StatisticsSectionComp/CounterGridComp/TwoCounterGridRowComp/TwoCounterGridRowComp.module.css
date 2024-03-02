@@ -1,0 +1,19 @@
+.twoCounterGridRowCompContainer {
+  display: flex;
+  height: 50%;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.numRepoInfoStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  /* background-color: bisque; */
+}
+
+.counterNumberStyle {
+  font-size: 0.8rem;
+}

@@ -1,0 +1,12 @@
+.mobileHeaderCompContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 7rem;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 1px 2px grey;
+  width: 100%;
+  border-bottom-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  background-color: white;
+}

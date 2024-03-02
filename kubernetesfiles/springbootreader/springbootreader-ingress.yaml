@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: githubview-springbootreader-ingress
+  annotations:
+    # ingress.kubernetes.io/rewrite-target: /
+    kubernetes.io/ingress.class: nginx
+spec:
+  tls:
+    - hosts:
+        - githubviewerapi.jnydam.com
+      secretName: githubviewerapijnydamdotcomsecret
+  rules:
+    - host: githubviewerapi.jnydam.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: githubview-springbootreader-service
+                port:
+                  number: 80

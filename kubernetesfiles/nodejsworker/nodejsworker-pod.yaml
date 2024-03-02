@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: githubview-nodejsworker
+  labels:
+    app: githubview-nodejsworker-testapp
+spec:
+  containers:
+    - name: githubview-nodejsworkerappcontainer
+      #image: {{image}}
+      ports:
+        - containerPort: 8081

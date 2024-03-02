@@ -1,0 +1,7 @@
+.mobileLayoutCompContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  width: 100%;
+  background-color: #b6c2d3;
+}

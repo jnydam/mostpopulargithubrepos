@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: githubview-nodejsworker-testservice
+spec:
+  selector:
+    app: githubview-nodejsworker-testapp
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8081
