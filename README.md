@@ -2,6 +2,8 @@ Most Popular Github Repository Reader Project
 
 Deployed Project: https://githubviewer.jnydam.com/
 
+Figma Link: https://www.figma.com/file/CjMDfn7w4BN45y7oHz6kw0/GithubRepoViewerPublic?type=design&node-id=0-1&mode=design
+
 This full-stack project is composed of a frontend written with React + Typescript (./frontend),
 a backend REST API written in Java Spring Boot (./springbootreader), backend NodeJS worker (./nodejsworker),
 and a MongoDB instance
